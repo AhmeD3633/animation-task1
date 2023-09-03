@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:-webkit-linear-gradient(left,black,white);    
+}
+
+.div-1{
+    width: 150px;
+    height: 90px;
+    background-color: rgb(75, 75, 75);
+    margin-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+}
+.div-2{
+    width: 150px;
+    height: 90px;
+    background-color: rgb(74, 74, 74);
+    top: 110px;
+    right: 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+    margin-right: 10px;
+    animation-name: change-1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+
+}
+.div-3{
+    width: 150px;
+    height: 90px;
+    background-color: rgb(75, 75, 75);
+    top: 220px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 7.4s;
+}
+.div-4{
+    width: 150px;
+    height:90px;
+    background-color: rgb(75, 75, 75);
+    right: 0;
+    top: 330px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+    margin-right: 10px;
+    animation-name: change-1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 10.8s;
+
+}
+.div-5{
+    width: 150px;
+    height: 90px;
+    background-color: rgb(76, 76, 76);
+    top: 440px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 15.6s;
+}
+.div-6{
+    width: 150px;
+    height: 90px;
+    background-color: rgb(75, 75, 75);
+    top:550px;
+    right: 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+    margin-right: 10px;
+    animation-name: change-1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 20.7s;
+
+}
+@keyframes change{
+    0%{
+        left: 0;
+    }
+
+    100%{
+        left: 1380px;
+    }
+}
+
+@keyframes change-1{
+    0%{
+        right: 0;
+    }
+
+    100%{
+        right: 1380px;
+    }
+}
